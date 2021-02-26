@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    background:  #f3d19e;
+}
+
+header{
+    margin: o;
+    position: relative;
+    background: #cc9543;
+    height: 70px;
+    line-height: 40px;
+}
+
+#restaurant-name{
+    width: fit-content;
+    display: inline;
+    vertical-align: bottom;
+    position: absolute;
+    margin-left: 40px;
+    font-family: 'Lobster';
+    font-size: 70px;
+}
+
+#nav{
+    width: fit-content;
+    display: inline;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.nav-tab{
+    width: 70px;
+    height: 30px;
+    background: white;
+    border: 1px solid  #cc9543;
+}
+
+.nav-tab:focus{
+    outline: none;
+    border: 1px solid  #cc9543;
+    background: #cc9543;
+}
+
+
+#subcontent{
+    margin: 100px 0 0 0;
+}
+
+#menu-div{
+    background: #80b7c063;
+    width: fit-content;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px black;
+    line-height: 15px;
+}
+
+#menu-tittle{
+    color: black;
+    margin-bottom: 10px;
+}
+
+#dish-price{
+    color: grey;
+    font-size: small;
+
+}
+
+#dish-name{
+    color: rgb(54, 54, 54);
+}
+
+#extra{
+    color:#547a80c2;
+    font-size:xx-large;
+    font-family:cursive;
+    font-stretch:wider;
+    vertical-align:auto;
+}
+
+#find-us-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "address phone social";
+    grid-gap: 40px;
+    height: 300px;
+}
+
+.find-us-comlumns{
+    text-align: center;
+    padding: 20px;
+    background: #704e1a;
+    margin: 0 50px;
+}
+
+#address-div{
+    grid-area: address;
+}
+
+#phone-div{
+    grid-area: phone;
+}
+
+#social-div{
+    grid-area: social;
+}
+
+.icons{
+    width: 60px;
+    height: 60px;
+    padding:5px;
+    background: #cc9543;
+    border-radius: 50%;
+    
+}
+
+#home-div{
+    width: 500px;
+    height: 200px;
+    background: #cc9543;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+#home-text{
+    font-family: 'Lobster';
+    font-size: 30px;
+    vertical-align: center;
+    text-align: center;
+}
+
+#check-menu{
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    border: double 2px black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#check-menu:hover{
+    background: #704e1a;
+}
+
+#check-menu:focus{
+    outline: none;
+}
+
+footer{
+    background: #cc9543;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: -50px;
+    text-align: right;
+}
+
+#slogan{
+    margin: 10px 30px;
+}
